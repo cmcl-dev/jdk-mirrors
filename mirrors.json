@@ -70,6 +70,12 @@
                     "nju": {
                         "msi": "https://mirror.nju.edu.cn/adoptium/8/jre/x32/windows/OpenJDK8U-jre_x86-32_windows_hotspot_8u362b09.msi", 
                         "zip": "https://mirror.nju.edu.cn/adoptium/8/jre/x32/windows/OpenJDK8U-jre_x86-32_windows_hotspot_8u362b09.zip"
+                    }, 
+                    "ustc": {
+                        "msi": "", 
+                        "msi-sha256": "", 
+                        "zip": "", 
+                        "zip-sha256": ""
                     }
                 }
                 "win64": {
@@ -80,26 +86,36 @@
                     "nju": {
                         "msi": "https://mirror.nju.edu.cn/adoptium/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_hotspot_8u362b09.msi",
                         "zip": "https://mirror.nju.edu.cn/adoptium/8/jdk/x64/windows/OpenJDK8U-jdk_x64_windows_hotspot_8u362b09.zip"
+                    }, 
+                    "ustc": {
+                        "msi": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_windows_hotspot_8u362b09.msi", 
+                        "msi-sha256": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_windows_hotspot_8u362b09.msi.sha256.txt", 
+                        "zip": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_windows_hotspot_8u362b09.zip", 
+                        "zip-sha256": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_windows_hotspot_8u362b09.zip.sha256.txt"
                     }
                 }, 
                 "linux": {
                     "tuna": {
-                        "tar.gz": ""
+                        "tar.gz": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_hotspot_8u362b09.tar.gz"
                     },
                     "nju": {
-                        "tar.gz": ""
+                        "tar.gz": "https://mirror.nju.edu.cn/Adoptium/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_hotspot_8u362b09.tar.gz"
                     },
                     "ustc": {
-                        "tar.gz": "",
-                        "tar.gz-sha256": ""
+                        "tar.gz": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_linux_hotspot_8u362b09.tar.gz",
+                        "tar.gz-sha256": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_linux_hotspot_8u362b09.tar.gz.sha256.txt"
                     }
                 }, 
                 "alpine-linux": {
                     "tuna": {
-                        "tar.gz": ""
+                        "tar.gz": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u362b09.tar.gz"
                     },
                     "nju": {
-                        "tar.gz": ""
+                        "tar.gz": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_linux_hotspot_8u362b09.tar.gz.sha256.txt"
+                    }, 
+                    "ustc": {
+                        "tar.gz": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u362b09.tar.gz", 
+                        "tar.gz-sha256": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x64_alpine-linux_hotspot_8u362b09.tar.gz.sha256.txt"
                     }
                 }
             }
