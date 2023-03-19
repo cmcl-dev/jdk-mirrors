@@ -120,5 +120,23 @@
                 }
             }
         }
+    }, 
+    "Java": {
+        "jdk": {
+            "8": {
+                "win32": {
+                    "exe": "https://repo.huaweicloud.com/java/jdk/8u152-b16/jdk-8u152-windows-i586.exe"
+                },
+                "win64": {
+                    "exe": "https://repo.huaweicloud.com/java/jdk/8u152-b16/jdk-8u152-windows-x64.exe"
+                }, 
+                "linux": {
+                    "tar.gz": "https://repo.huaweicloud.com/java/jdk/8u152-b16/jdk-8u152-linux-x64.tar.gz"
+                }, 
+                "linux-32": {
+                    "tar.gz": "https://repo.huaweicloud.com/java/jdk/8u152-b16/jdk-8u152-linux-i586.tar.gz"
+                }
+            }
+        }
     }
 }
