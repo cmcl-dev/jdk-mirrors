@@ -72,10 +72,10 @@
                         "zip": "https://mirror.nju.edu.cn/adoptium/8/jre/x32/windows/OpenJDK8U-jre_x86-32_windows_hotspot_8u362b09.zip"
                     }, 
                     "ustc": {
-                        "msi": "", 
-                        "msi-sha256": "", 
-                        "zip": "", 
-                        "zip-sha256": ""
+                        "msi": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x86-32_windows_hotspot_8u362b09.msi", 
+                        "msi-sha256": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x86-32_windows_hotspot_8u362b09.msi.sha256.txt", 
+                        "zip": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x86-32_windows_hotspot_8u362b09.zip", 
+                        "zip-sha256": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jdk_x86-32_windows_hotspot_8u362b09.zip.sha256.txt"
                     }
                 }
                 "win64": {
